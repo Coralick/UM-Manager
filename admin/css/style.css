@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sorted-column{
+    cursor: pointer;
+}
+.sorted-column:hover + .dashicons-arrow-up{
+    color: wheat;
+    
+}
+.sorted-column:hover ~ .dashicons-arrow-up{
+    color: wheat;
+    
+}
